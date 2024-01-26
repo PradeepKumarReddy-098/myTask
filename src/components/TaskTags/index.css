@@ -1,0 +1,72 @@
+.tags-and-task-container {
+  padding: 20px;
+  padding-top: 40px;
+  width: 100%;
+}
+.container-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 750px;
+  padding-left: 0%;
+}
+.tag-button {
+  background-color: transparent;
+  color: #f1f5f9;
+  padding: 6px;
+  border: 1px solid var(--text-background-color);
+  border-radius: 12px;
+}
+.active-tag-button {
+  background-color: var(--text-background-color);
+  color: var(--text-color);
+  padding: 8px;
+  border-radius: 12px;
+}
+.heading {
+  color: var(--text-color);
+}
+.no-task-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-task-container {
+  width: 100%;
+  text-align: center;
+}
+.no-task {
+  margin-top: 20%;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.tasks-container {
+  padding-left: 0px;
+  height: 70%;
+  overflow-y: auto;
+}
+.task-item {
+  background-color: #1a171d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 8px;
+}
+.name {
+  color: var(--text-color);
+  font-weight: 600;
+}
+.a {
+  background-color: var(--text-background-color);
+  color: #1a171d;
+  padding: 4px;
+  border-radius: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,51 @@
+.create-task-container {
+  background-color: #1a171d;
+  width: 30%;
+  min-width: 400px;
+  height: 100%;
+}
+.task {
+  width: 100%;
+  position: relative;
+  top: 120px;
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+}
+.form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+.headings {
+  color: var(--text-background-color);
+}
+.text-label {
+  color: var(--text-color);
+}
+.text-input {
+  width: 100%;
+  padding: 5px;
+}
+
+.select-input {
+  width: 100%;
+  padding: 6px;
+}
+
+.add-task-btn {
+  background-color: var(--text-background-color);
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 5px;
+  text-align: center;
+}

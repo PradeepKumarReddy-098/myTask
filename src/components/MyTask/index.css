@@ -1,0 +1,11 @@
+:root {
+  --text-background-color: #f3aa4e;
+  --text-color: #f1f5f9;
+}
+
+.my-task-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
